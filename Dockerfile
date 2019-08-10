@@ -1,6 +1,6 @@
 FROM centos:latest
 
-MAINTAINER Deepak Panda - ./build_centos.sh
+MAINTAINER Ramesh Sahoo - ./build_centos.sh
 
 # Set correct environment variables.
 ENV	HOME /root
