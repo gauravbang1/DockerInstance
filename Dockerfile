@@ -21,7 +21,7 @@ ENV JAVA_OPTS="-Xms64m -Xmx1024m -XX:MaxMetaspaceSize=256m"
 # centos-java8U60-ssh
 RUN yum -y install openssh-server initscripts
 RUN echo "root:#welcome123" | chpasswd
-RUN /usr/sbin/sshd-keygen
+#RUN /usr/sbin/sshd-keygen
 EXPOSE 22
 CMD ["/usr/sbin/sshd", "-D"]
 
